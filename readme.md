@@ -1,4 +1,6 @@
-#Computer Science Programming Basics in Ruby by Ophir Frieder, Gideon Frieder, and David Grossman
+#Computer Science Programming Basics in Ruby 
+###by Ophir Frieder, Gideon Frieder, and David Grossman
+###Published by O'Reilly
 
 #####Extract from Preface
 "Our target audience is students and practitioners who wish to learn
