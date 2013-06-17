@@ -1,0 +1,35 @@
+2.8.1
+Write 208 in binary and in ternary (base 3). Hint: what are the ternary digits
+
+binary = 208
+2*2^2 + 0*2^1 + 8*2^0 = 16
+
+ternary = 208
+2*3^2 + 0*3^1 + 8*3^0 = 42
+
+
+2.8.2
+The octal system (base 8) uses the digits 0 through 7. The representation of the letter A in the ASCII encoding scheme is 1000001 in binary. What is it in octal?
+
+001 		000 		001
+1*2^1	+	0			+	1*2^1 = 2
+
+
+2.8.3
+Color pictures are built of pixels, each represented by three bytes of information. Each byte represents the intensity of the primary colors red, green, and blue (or RGB values). How many gigabytes of storage are required for a 1028 × 1028–pixel color picture?
+
+1028px * 1028px * 3bytes = 3_170_352
+gigabyte = 1,000,000,000
+
+.00317 gigabytes
+
+2.8.4
+A communication device has the capacity to transfer one megabit of data per second. A 90-minute movie is recorded at 25 frames per second, each frame consisting of 720  × 600 pixels. How long would it take to transfer this movie across the previously described communication device? Would someone be able to stream the video over this communication device without experiencing jittery playback? Explain why or why not.
+
+720*600 px = 432_000px * 3 bytes/pix = 1_296_000bytes/frame
+25 frames/sec
+1_296_000 * 25 = 32_400_000 bytes/sec or 0.0324 gigabytes
+0.0325 gigabytes/sec 
+1 gigabyte = 1_024 megabytes
+0.0325 gigabytes * 1024 megabytes = 33.28 megabytes/sec
+33.28 seconds
